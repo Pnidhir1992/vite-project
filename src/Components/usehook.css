@@ -1,0 +1,23 @@
+.head > h1, div{
+    color: #fff;
+}
+
+.section1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: blue;
+   padding: 100px;
+   flex-direction: column;
+   gap: 50px;
+   color: aliceblue;
+}
+.button-n{
+    background-color: brown;
+    padding: 20px 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.new{
+    color: aliceblue;
+}

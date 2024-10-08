@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(6, 6, 24);
+    color: #fff;
+}
+
+.main-section{
+    width: 100%; 
+    min-height: 45vh; 
+}
+.container-todo{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+}
+header>h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.todo-input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.btn{
+    background: blueviolet;
+    padding: 15px 20px;
+    border-radius: 5px;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+input{
+    color: #fff;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.design{
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+}
+.lsiting-design{
+    background: #ddd;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    margin: 15px 20px;
+}
+.lsiting-design>span{
+    font-weight: 800;
+    color: black;
+}
+
+/* time show in the filed */
+
+.date-time-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
